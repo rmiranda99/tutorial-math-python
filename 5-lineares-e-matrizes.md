@@ -1,18 +1,16 @@
 # Tutorial rápido de Python para Matemáticos
 
-&copy; Ricardo Miranda Martins, 2022 - http://www.ime.unicamp.br/~rmiranda/
+© Ricardo Miranda Martins, 2022 - http://www.ime.unicamp.br/~rmiranda/
 
 ## Índice
 
-1. [Introdução](1-intro.html) 
+1. [Introdução](http://www.ime.unicamp.br/~rmiranda/python.html) 
 2. [Python é uma boa calculadora!](2-calculadora.html) [(código fonte)](2-calculadora.ipynb)
 3. [Resolvendo equações](3-resolvendo-eqs.html)  [(código fonte)](3-resolvendo-eqs.ipynb)
 4. [Gráficos](4-graficos.html)  [(código fonte)](4-graficos.ipynb)
 5. [Sistemas lineares e matrizes](5-lineares-e-matrizes.html)  [(código fonte)](5-lineares-e-matrizes.ipynb)
 6. [Limites, derivadas e integrais](6-limites-derivadas-integrais.html)  [(código fonte)](6-limites-derivadas-integrais.ipynb)
 7. [Equações direrenciais](7-equacoes-diferenciais.html)  [(código fonte)](7-equacoes-diferenciais.ipynb)
-
-
 
 # Resolvendo sistemas lineares
 
@@ -292,12 +290,12 @@ B*A
 
 
     ---------------------------------------------------------------------------
-
+    
     ShapeError                                Traceback (most recent call last)
-
+    
     /var/folders/90/lb7fswt93477cpj1pl8z494m0000gn/T/ipykernel_41171/3451148411.py in <module>
     ----> 1 B*A
-    
+
 
     ~/opt/anaconda3/lib/python3.9/site-packages/sympy/core/decorators.py in binary_op_wrapper(self, other)
         134                     if f is not None:
@@ -648,9 +646,9 @@ plt.contour(x, y, z,0)
 
 
 
-    
+​    
 ![png](output_56_1.png)
-    
+​    
 
 
 Humm.. me parece que teremos uma hipérbole. Isso significa que podemos esperar um autovalor positivo e um negativo. Vamos começar as contas definindo a matriz A.
@@ -791,9 +789,9 @@ plt.contour(x, y, z3,0)
 
 
 
-    
+​    
 ![png](output_73_1.png)
-    
+​    
 
 
 Olha só, já conseguimos desentortar a hipérbole!! Agora só precisamos da segunda mudança de coordenadas para poder centralizá-la. Vamos precisar calcular $\alpha$, $\beta$ e os autovalores $\lambda$ e $\mu$.
@@ -856,9 +854,9 @@ plt.contour(x, y, z4,0)
 
 
 
-    
+​    
 ![png](output_79_2.png)
-    
+​    
 
 
 Por fim, vamos plotar todas as curvas num único sistema de eixos, para você ver o que aconteceu. A curva em vermelho é a original, a curva em azul é após a mudança de coordenadas do tipo rotação, e a curva preta é após a segunda mudança de coordenadas, de translação.
@@ -892,9 +890,9 @@ plt.show()
 ```
 
 
-    
+​    
 ![png](output_81_0.png)
-    
+​    
 
 
 E a equação final é:
@@ -909,5 +907,4 @@ sp.Eq(lam*x**2+mu*y**2+ftil,0)
 
 
 $\displaystyle x^{2} \left(-1 + \sqrt{5}\right) + y^{2} \left(- \sqrt{5} - 1\right) - 4 - \frac{\left(5 - 2 \sqrt{5}\right) \left(\sqrt{5} + 4\right)^{2}}{10 \left(-4 + 4 \sqrt{5}\right)} - \frac{\left(4 - \sqrt{5}\right)^{2} \left(2 \sqrt{5} + 5\right)}{10 \left(- 4 \sqrt{5} - 4\right)} = 0$
-
 

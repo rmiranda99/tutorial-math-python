@@ -1,18 +1,16 @@
 # Tutorial rápido de Python para Matemáticos
 
-&copy; Ricardo Miranda Martins, 2022 - http://www.ime.unicamp.br/~rmiranda/
+© Ricardo Miranda Martins, 2022 - http://www.ime.unicamp.br/~rmiranda/
 
 ## Índice
 
-1. [Introdução](1-intro.html) 
+1. [Introdução](http://www.ime.unicamp.br/~rmiranda/python.html) 
 2. [Python é uma boa calculadora!](2-calculadora.html) [(código fonte)](2-calculadora.ipynb)
 3. [Resolvendo equações](3-resolvendo-eqs.html)  [(código fonte)](3-resolvendo-eqs.ipynb)
 4. [Gráficos](4-graficos.html)  [(código fonte)](4-graficos.ipynb)
 5. [Sistemas lineares e matrizes](5-lineares-e-matrizes.html)  [(código fonte)](5-lineares-e-matrizes.ipynb)
 6. [Limites, derivadas e integrais](6-limites-derivadas-integrais.html)  [(código fonte)](6-limites-derivadas-integrais.ipynb)
 7. [Equações direrenciais](7-equacoes-diferenciais.html)  [(código fonte)](7-equacoes-diferenciais.ipynb)
-
-
 
 # Gráficos
 
@@ -59,9 +57,9 @@ plt.plot(x, y)
 
 
 
-    
+​    
 ![png](output_2_1.png)
-    
+​    
 
 
 Só por curiosidade, o que acontece se ao invés de 50 pontos, escolhermos menos pontos?
@@ -83,9 +81,9 @@ plt.plot(x, y)
 
 
 
-    
+​    
 ![png](output_4_1.png)
-    
+​    
 
 
 Viu? É por isso que com poucos pontos a gente ganha zero na questão! :)
@@ -126,9 +124,9 @@ a.plot(x, y)
 
 
 
-    
+​    
 ![png](output_6_1.png)
-    
+​    
 
 
 Podemos também usar o Python para plotar curvas parametrizadas. O comando é parecido:
@@ -149,9 +147,9 @@ plt.plot(x, y)
 
 
 
-    
+​    
 ![png](output_8_1.png)
-    
+​    
 
 
 Note que o comando é praticamente o mesmo nos dois casos acima: plotando muitos pontos de uma curva parametrizada (no primeiro caso, a curva é da forma $(t,f(t))$).
@@ -207,9 +205,9 @@ plt.contour(x, y, z)
 
 
 
-    
+​    
 ![png](output_10_1.png)
-    
+​    
 
 
 O matplotlib também faz gráficos tridimensionais. A ideia do plot continua a mesma: o gráfico vai ser obtido pela união de vários pontos.
@@ -254,9 +252,9 @@ ax.plot_wireframe(x, y, z)
 
 
 
-    
+​    
 ![png](output_12_1.png)
-    
+​    
 
 
 Podemos ainda plotar superfícies parametrizadas. O processo é parecido com o de antes: discretizamos o domínio e daí calculamos a função na malha criada. Vamos fazer isso para plotar um toro, usando sua parametrização usual. O código abaixo foi inspirado [nesse site](https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781849513265/7/ch07lvl1sec76/plotting-a-parametric-3d-surface).
@@ -290,9 +288,9 @@ plt.show()
 ```
 
 
-    
+​    
 ![png](output_14_0.png)
-    
+​    
 
 
 Por fim, podemos ainda fazer plots de curvas parametrizadas em 3D:
@@ -322,7 +320,7 @@ ax.plot(x, y, z)
 
 
 
-    
+​    
 ![png](output_16_1.png)
-    
+​    
 

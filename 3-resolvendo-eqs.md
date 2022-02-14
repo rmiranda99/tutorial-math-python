@@ -1,18 +1,16 @@
 # Tutorial rápido de Python para Matemáticos
 
-&copy; Ricardo Miranda Martins, 2022 - http://www.ime.unicamp.br/~rmiranda/
+© Ricardo Miranda Martins, 2022 - http://www.ime.unicamp.br/~rmiranda/
 
 ## Índice
 
-1. [Introdução](1-intro.html) 
+1. [Introdução](http://www.ime.unicamp.br/~rmiranda/python.html) 
 2. [Python é uma boa calculadora!](2-calculadora.html) [(código fonte)](2-calculadora.ipynb)
 3. [Resolvendo equações](3-resolvendo-eqs.html)  [(código fonte)](3-resolvendo-eqs.ipynb)
 4. [Gráficos](4-graficos.html)  [(código fonte)](4-graficos.ipynb)
 5. [Sistemas lineares e matrizes](5-lineares-e-matrizes.html)  [(código fonte)](5-lineares-e-matrizes.ipynb)
 6. [Limites, derivadas e integrais](6-limites-derivadas-integrais.html)  [(código fonte)](6-limites-derivadas-integrais.ipynb)
 7. [Equações direrenciais](7-equacoes-diferenciais.html)  [(código fonte)](7-equacoes-diferenciais.ipynb)
-
-
 
 # Resolvendo equações
 
@@ -127,9 +125,9 @@ sp.plot(x**7-x**6+x**3-9,(x,-2,2),ylim=[-50,50])
 ```
 
 
-    
+​    
 ![png](output_16_0.png)
-    
+​    
 
 
 
@@ -283,9 +281,9 @@ sp.plot_implicit(sp.Or(sp.Eq(x**5+y**6+x**3,1),sp.Eq(x+y,1)))
 ```
 
 
-    
+​    
 ![png](output_33_0.png)
-    
+​    
 
 
 
@@ -393,14 +391,13 @@ sp.plot(x**7+x-1,(x,0,1),ylim=[-1,1])
 ```
 
 
-    
+​    
 ![png](output_37_0.png)
-    
+​    
 
 
 
 
 
     <sympy.plotting.plot.Plot at 0x7f79b8fe2730>
-
 
